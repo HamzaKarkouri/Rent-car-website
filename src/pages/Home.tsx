@@ -128,8 +128,13 @@ export default function Home() {
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-4">Véhicules en Vedette</h2>
-            <p className="text-center text-gray-600 dark:text-gray-400 mb-12">Vivez l'apogée de l'excellence automobile <a href="/cars" className="text-primary font-semibold">Voir plus </a></p>
+             <p className="text-center text-gray-600 dark:text-gray-400 mb-12">Vivez l'apogée de l'excellence automobile <Link
+                to="/cars"
+                className=" text-primary  "
+            >
+              Voir plus
 
+            </Link></p>
 
 
           <div className="grid md:grid-cols-3 gap-8">
